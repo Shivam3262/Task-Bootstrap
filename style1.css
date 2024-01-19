@@ -1,6 +1,6 @@
 
 body{
-  margin: 2%;
+  /* margin: 2%; */
   background-color: #dedede57;
   overflow-x: hidden;
   
@@ -76,7 +76,7 @@ hr {
 #Upper-Container li,
 #First-Upper li,
 #Second-Upper li {
-  margin-right: 55px;
+  /* margin-right: 55px; */
 }
 #Second-Upper li p {
   margin-bottom: 3.02vh;
