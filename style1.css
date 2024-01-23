@@ -3,6 +3,7 @@ body{
   /* margin: 2%; */
   background-color: #dedede57;
   overflow-x: hidden;
+
   
 }
 
@@ -76,11 +77,33 @@ hr {
 #Upper-Container li,
 #First-Upper li,
 #Second-Upper li {
-  /* margin-right: 55px; */
+  margin-right: 55px;
 }
 #Second-Upper li p {
   margin-bottom: 3.02vh;
 }
+
+.final-container {
+  display: grid;
+  gap: 5px;
+  padding: 0 10px 10px 10px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  /* max-width: 1200px; */
+  margin: 0 auto;
+  box-shadow: none;
+  position: relative; 
+}
+.meeting-container {
+  box-shadow: 2px 2px 2px  rgba(91, 91, 91, 0.365);
+
+
+  margin:0 20px 20px 20px;
+  padding: 20px;
+  /* box-shadow: 2px 2px 2px rgba(91, 91, 91, 0.365); */
+}
+
+
+
 @media (max-width: 999px) {
   #Upper-Container {
     flex-direction: column;
@@ -108,7 +131,7 @@ hr {
   /* max-width: fit-content; */
   margin-bottom: 3.02vh;
   padding: 0 0.8vh;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 0.9vh 3.2vh 0 rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 0.9vh 3.2vh 0 rgba(0, 0, 0, 0.1); */
   border-radius: 1%;
   background-color: #fff;
 }
@@ -136,7 +159,7 @@ li {
   padding-top: 0.75vh;
   margin-bottom: 2.269vh;
 }
-.friends {
+.firends {
   height: 4.99vh;
   width: 4.99vh;
   border-radius: 50%;
@@ -165,6 +188,19 @@ ul {
 }
 
 
+.icons {
+  padding: 2px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover; 
+}
+.icons-square{
+width: 2.5em;
+height: 2.5rem;
+object-fit: cover; 
+margin-top: 10px; 
 
+}
 
  
